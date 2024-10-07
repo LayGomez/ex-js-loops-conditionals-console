@@ -132,13 +132,24 @@ for (let clave in programmers) {
 const names = ['Rocío', 'Lola', 'Antía', 'Laura', 'Noelia']
 
 //Escribe tu código aquí
-
+for (let valor of names) {
+    console.log("Hola, mi nombre es "+ valor)
+}
 
 //Ejercicio 12: Con un bucle while imprime en consola una lista del 1 al 5.
 
 //Escribe tu código aquí
-
+let contador = 0;
+while (contador < 6) {
+    console.log("Contador while: " + contador);
+    contador++;
+}
 
 //Ejercicio 13: Realiza el mismo ejercicio anterior pero con un bucle do while.
 
 //Escribe tu código aquí
+let contar = 1;
+do {
+    console.log("Contador dowhile: " + contar);
+    contar++;
+} while (contar < 6)
