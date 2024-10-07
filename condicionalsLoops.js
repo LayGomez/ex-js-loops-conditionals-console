@@ -10,7 +10,7 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Ejercicio 1: Escribe un condicional if/else que imprima en la consola 'Eres mayor de edad' cuando la constante age tenga el valor correspondiente, si no es así, debe imprimir 'No eres aún mayor de edad'
 
-const age = 18
+const age = 12
 //Escribe tu código aquí
 if (age >= 18) {
     console.log('Eres mayor de edad');    
@@ -23,10 +23,21 @@ if (age >= 18) {
 
 //Ejercicio 3: Escribe un condicional if/else que lea la constante pet y si es un perro, que imprima en la consola "Tengo un perro", si es un gato, que imprima en la consola "Tengo un gato", si es un pájaro, que imprima en la consola "Tengo un pájaro" y si no es ninguno de los 3 que imprima "No tengo una mascota convencional"
 
-const pet = "perro";
+const pet = "serpiente";
 //Escribe tu código aquí
-
-
+if (pet =="perro") {
+    console.log ("Tengo un perro");
+} else {
+    if (pet =="gato") {
+    console.log ("Tengo un gato");
+    } else {
+        if (pet =="pajaro") {
+        console.log("Tengo un pájaro")
+        } else {
+            console.log ("No tengo una mascota convencional");
+            }
+        }
+    }
 //Ejercicio 4: cambia el valor de pet a "serpiente" y mira el resultado en consola para comprobar que tu código funciona bien.
 
 
