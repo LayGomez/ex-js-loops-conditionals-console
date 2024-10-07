@@ -93,6 +93,9 @@ if (typeof value == typeof 1) {
 
 //Escribe tu código aquí
 
+for (let i=0; i<=10; i++){
+    console.log(i);
+}
 
 //Ejercicio 10: Con un bucle for in imprime en pantalla todos los nombres, apellidos y su aporte a la sociedad de las programadoras de la historia contenidas en el array llamado 'programmers', Deberás imprimir el índice y la información de cada una de ellas de la siguiente manera: '0: Ada Lovelace, su aporte fue la máquina analítica'. 
 
@@ -120,7 +123,9 @@ const programmers = [
 ]
 
 //Escribe tu código aquí
-
+for (let clave in programmers) {
+    console.log (clave + ': ' + programmers[clave].name + ' ' + programmers[clave].lastname + ', ' + programmers[clave].knowledge)
+}
 
 //Ejercicio 11: Con un bucle for of imprime en consola "Hola, mi nombre es ... " y reemplaza los tres puntos con cada nombre del array dado.
 
